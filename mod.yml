@@ -1,0 +1,1957 @@
+title: Kingdom Hearts II - Re:Fined | Vanilla Heartless [Slot 2]
+originalAuthor: The Re:Fined Team
+description: The Vanilla Heartless Resource Pack [Slot 2] for Kingdom Hearts II - Re:Fined.
+assets:
+
+# === Heartless Assets === #
+
+- name: msg/us/sys.bar
+  method: binarc
+  source:
+  - name: sys
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/sys.yml
+      language: en
+- name: msg/fr/sys.bar
+  method: binarc
+  source:
+  - name: sys
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/sys.yml
+      language: fr
+- name: msg/sp/sys.bar
+  method: binarc
+  source:
+  - name: sys
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/sys.yml
+      language: sp
+- name: msg/it/sys.bar
+  method: binarc
+  source:
+  - name: sys
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/sys.yml
+      language: it
+- name: msg/gr/sys.bar
+  method: binarc
+  source:
+  - name: sys
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/sys.yml
+      language: gr
+
+- name: itempic_3rd/item-077.imd
+  method: copy
+  source:
+  - name: itempic_3rd/item-077.imd
+- name: itempic_3rd/item-088.imd
+  method: copy
+  source:
+  - name: itempic_3rd/item-088.imd
+- name: menu_3rd/jmface_heart1.imd
+  method: copy
+  source:
+  - name: menu_3rd/jmface_heart1.imd
+- name: menu_3rd/jmface_heart10.imd
+  method: copy
+  source:
+  - name: menu_3rd/jmface_heart10.imd
+- name: menu_3rd/jmface_heart11.imd
+  method: copy
+  source:
+  - name: menu_3rd/jmface_heart11.imd
+- name: menu_3rd/jmface_heart12.imd
+  method: copy
+  source:
+  - name: menu_3rd/jmface_heart12.imd
+- name: menu_3rd/jmface_heart13.imd
+  method: copy
+  source:
+  - name: menu_3rd/jmface_heart13.imd
+- name: menu_3rd/jmface_heart14.imd
+  method: copy
+  source:
+  - name: menu_3rd/jmface_heart14.imd
+- name: menu_3rd/jmface_heart15.imd
+  method: copy
+  source:
+  - name: menu_3rd/jmface_heart15.imd
+- name: menu_3rd/jmface_heart17.imd
+  method: copy
+  source:
+  - name: menu_3rd/jmface_heart17.imd
+- name: menu_3rd/jmface_heart18.imd
+  method: copy
+  source:
+  - name: menu_3rd/jmface_heart18.imd
+- name: menu_3rd/jmface_heart19.imd
+  method: copy
+  source:
+  - name: menu_3rd/jmface_heart19.imd
+- name: menu_3rd/jmface_heart2.imd
+  method: copy
+  source:
+  - name: menu_3rd/jmface_heart2.imd
+- name: menu_3rd/jmface_heart22.imd
+  method: copy
+  source:
+  - name: menu_3rd/jmface_heart22.imd
+- name: menu_3rd/jmface_heart23.imd
+  method: copy
+  source:
+  - name: menu_3rd/jmface_heart23.imd
+- name: menu_3rd/jmface_heart26.imd
+  method: copy
+  source:
+  - name: menu_3rd/jmface_heart26.imd
+- name: menu_3rd/jmface_heart27.imd
+  method: copy
+  source:
+  - name: menu_3rd/jmface_heart27.imd
+- name: menu_3rd/jmface_heart28.imd
+  method: copy
+  source:
+  - name: menu_3rd/jmface_heart28.imd
+- name: menu_3rd/jmface_heart29.imd
+  method: copy
+  source:
+  - name: menu_3rd/jmface_heart29.imd
+- name: menu_3rd/jmface_heart30.imd
+  method: copy
+  source:
+  - name: menu_3rd/jmface_heart30.imd
+- name: menu_3rd/jmface_heart31.imd
+  method: copy
+  source:
+  - name: menu_3rd/jmface_heart31.imd
+- name: menu_3rd/jmface_heart37.imd
+  method: copy
+  source:
+  - name: menu_3rd/jmface_heart37.imd
+- name: menu_3rd/jmface_heart38.imd
+  method: copy
+  source:
+  - name: menu_3rd/jmface_heart38.imd
+- name: menu_3rd/jmface_heart39.imd
+  method: copy
+  source:
+  - name: menu_3rd/jmface_heart39.imd
+- name: menu_3rd/jmface_heart40.imd
+  method: copy
+  source:
+  - name: menu_3rd/jmface_heart40.imd
+- name: menu_3rd/jmface_heart41.imd
+  method: copy
+  source:
+  - name: menu_3rd/jmface_heart41.imd
+- name: menu_3rd/jmface_heart42.imd
+  method: copy
+  source:
+  - name: menu_3rd/jmface_heart42.imd
+- name: menu_3rd/jmface_heart6.imd
+  method: copy
+  source:
+  - name: menu_3rd/jmface_heart6.imd
+- name: menu_3rd/jmface_heart60.imd
+  method: copy
+  source:
+  - name: menu_3rd/jmface_heart60.imd
+- name: menu_3rd/jmface_heart64.imd
+  method: copy
+  source:
+  - name: menu_3rd/jmface_heart64.imd
+- name: menu_3rd/jmface_heart65.imd
+  method: copy
+  source:
+  - name: menu_3rd/jmface_heart65.imd
+- name: menu_3rd/jmface_heart66.imd
+  method: copy
+  source:
+  - name: menu_3rd/jmface_heart66.imd
+- name: menu_3rd/jmface_heart67.imd
+  method: copy
+  source:
+  - name: menu_3rd/jmface_heart67.imd
+- name: menu_3rd/jmface_heart68.imd
+  method: copy
+  source:
+  - name: menu_3rd/jmface_heart68.imd
+- name: menu_3rd/jmface_heart7.imd
+  method: copy
+  source:
+  - name: menu_3rd/jmface_heart7.imd
+- name: menu_3rd/jmface_heart8.imd
+  method: copy
+  source:
+  - name: menu_3rd/jmface_heart8.imd
+- name: menu_3rd/jmface_heart9.imd
+  method: copy
+  source:
+  - name: menu_3rd/jmface_heart9.imd
+- name: obj_3rd/B_BB100.mdlx
+  method: copy
+  source:
+  - name: obj_3rd/B_BB100.mdlx
+- name: obj_3rd/B_BB100_GM.mdlx
+  method: copy
+  source:
+  - name: obj_3rd/B_BB100_GM.mdlx
+- name: obj_3rd/B_BB100_TSURU.mdlx
+  method: copy
+  source:
+  - name: obj_3rd/B_BB100_TSURU.mdlx
+- name: obj_3rd/B_CA000.mdlx
+  method: copy
+  source:
+  - name: obj_3rd/B_CA000.mdlx
+- name: obj_3rd/B_CA050.mdlx
+  method: copy
+  source:
+  - name: obj_3rd/B_CA050.mdlx
+- name: obj_3rd/B_CA050_GM.mdlx
+  method: copy
+  source:
+  - name: obj_3rd/B_CA050_GM.mdlx
+- name: obj_3rd/B_LK120.mdlx
+  method: copy
+  source:
+  - name: obj_3rd/B_LK120.mdlx
+- name: obj_3rd/B_LK120_GM.mdlx
+  method: copy
+  source:
+  - name: obj_3rd/B_LK120_GM.mdlx
+- name: obj_3rd/B_MU120.mdlx
+  method: copy
+  source:
+  - name: obj_3rd/B_MU120.mdlx
+- name: obj_3rd/B_MU120_GM.mdlx
+  method: copy
+  source:
+  - name: obj_3rd/B_MU120_GM.mdlx
+- name: obj_3rd/B_NM100.mdlx
+  method: copy
+  source:
+  - name: obj_3rd/B_NM100.mdlx
+- name: obj_3rd/B_NM100_GM.mdlx
+  method: copy
+  source:
+  - name: obj_3rd/B_NM100_GM.mdlx
+- name: obj_3rd/M_EX010.mdlx
+  method: copy
+  source:
+  - name: obj_3rd/M_EX010.mdlx
+- name: obj_3rd/M_EX010_NM.mdlx
+  method: copy
+  source:
+  - name: obj_3rd/M_EX010_NM.mdlx
+- name: obj_3rd/M_EX050.mdlx
+  method: copy
+  source:
+  - name: obj_3rd/M_EX050.mdlx
+- name: obj_3rd/M_EX060.mdlx
+  method: copy
+  source:
+  - name: obj_3rd/M_EX060.mdlx
+- name: obj_3rd/M_EX200.mdlx
+  method: copy
+  source:
+  - name: obj_3rd/M_EX200.mdlx
+- name: obj_3rd/M_EX200_NM.mdlx
+  method: copy
+  source:
+  - name: obj_3rd/M_EX200_NM.mdlx
+- name: obj_3rd/M_EX210.mdlx
+  method: copy
+  source:
+  - name: obj_3rd/M_EX210.mdlx
+- name: obj_3rd/M_EX500.mdlx
+  method: copy
+  source:
+  - name: obj_3rd/M_EX500.mdlx
+- name: obj_3rd/M_EX500_GM.mdlx
+  method: copy
+  source:
+  - name: obj_3rd/M_EX500_GM.mdlx
+- name: obj_3rd/M_EX500_NM.mdlx
+  method: copy
+  source:
+  - name: obj_3rd/M_EX500_NM.mdlx
+- name: obj_3rd/M_EX510.mdlx
+  method: copy
+  source:
+  - name: obj_3rd/M_EX510.mdlx
+- name: obj_3rd/M_EX520.mdlx
+  method: copy
+  source:
+  - name: obj_3rd/M_EX520.mdlx
+- name: obj_3rd/M_EX520_AL.mdlx
+  method: copy
+  source:
+  - name: obj_3rd/M_EX520_AL.mdlx
+- name: obj_3rd/M_EX530.mdlx
+  method: copy
+  source:
+  - name: obj_3rd/M_EX530.mdlx
+- name: obj_3rd/M_EX540.mdlx
+  method: copy
+  source:
+  - name: obj_3rd/M_EX540.mdlx
+- name: obj_3rd/M_EX550.mdlx
+  method: copy
+  source:
+  - name: obj_3rd/M_EX550.mdlx
+- name: obj_3rd/M_EX560.mdlx
+  method: copy
+  source:
+  - name: obj_3rd/M_EX560.mdlx
+- name: obj_3rd/M_EX570.mdlx
+  method: copy
+  source:
+  - name: obj_3rd/M_EX570.mdlx
+- name: obj_3rd/M_EX590.mdlx
+  method: copy
+  source:
+  - name: obj_3rd/M_EX590.mdlx
+- name: obj_3rd/M_EX620.mdlx
+  method: copy
+  source:
+  - name: obj_3rd/M_EX620.mdlx
+- name: obj_3rd/M_EX620_AL.mdlx
+  method: copy
+  source:
+  - name: obj_3rd/M_EX620_AL.mdlx
+- name: obj_3rd/M_EX630.mdlx
+  method: copy
+  source:
+  - name: obj_3rd/M_EX630.mdlx
+- name: obj_3rd/M_EX640.mdlx
+  method: copy
+  source:
+  - name: obj_3rd/M_EX640.mdlx
+- name: obj_3rd/M_EX650.mdlx
+  method: copy
+  source:
+  - name: obj_3rd/M_EX650.mdlx
+- name: obj_3rd/M_EX670.mdlx
+  method: copy
+  source:
+  - name: obj_3rd/M_EX670.mdlx
+- name: obj_3rd/M_EX690.mdlx
+  method: copy
+  source:
+  - name: obj_3rd/M_EX690.mdlx
+- name: obj_3rd/M_EX700.mdlx
+  method: copy
+  source:
+  - name: obj_3rd/M_EX700.mdlx
+- name: obj_3rd/M_EX700_NM.mdlx
+  method: copy
+  source:
+  - name: obj_3rd/M_EX700_NM.mdlx
+- name: obj_3rd/M_EX710.mdlx
+  method: copy
+  source:
+  - name: obj_3rd/M_EX710.mdlx
+- name: obj_3rd/M_EX720.mdlx
+  method: copy
+  source:
+  - name: obj_3rd/M_EX720.mdlx
+- name: obj_3rd/M_EX730.mdlx
+  method: copy
+  source:
+  - name: obj_3rd/M_EX730.mdlx
+- name: obj_3rd/M_EX740.mdlx
+  method: copy
+  source:
+  - name: obj_3rd/M_EX740.mdlx
+- name: obj_3rd/M_EX750.mdlx
+  method: copy
+  source:
+  - name: obj_3rd/M_EX750.mdlx
+- name: obj_3rd/M_EX750_NM.mdlx
+  method: copy
+  source:
+  - name: obj_3rd/M_EX750_NM.mdlx
+- name: obj_3rd/M_EX780.mdlx
+  method: copy
+  source:
+  - name: obj_3rd/M_EX780.mdlx
+- name: obj_3rd/M_EX790.mdlx
+  method: copy
+  source:
+  - name: obj_3rd/M_EX790.mdlx
+- name: obj_3rd/M_EX790_CHRISTMAS.mdlx
+  method: copy
+  source:
+  - name: obj_3rd/M_EX790_CHRISTMAS.mdlx
+- name: obj_3rd/M_EX790_CHRISTMAS_NM.mdlx
+  method: copy
+  source:
+  - name: obj_3rd/M_EX790_CHRISTMAS_NM.mdlx
+- name: obj_3rd/M_EX790_GM.mdlx
+  method: copy
+  source:
+  - name: obj_3rd/M_EX790_GM.mdlx
+- name: obj_3rd/M_EX790_HALLOWEEN.mdlx
+  method: copy
+  source:
+  - name: obj_3rd/M_EX790_HALLOWEEN.mdlx
+- name: obj_3rd/M_EX790_HALLOWEEN_NM.mdlx
+  method: copy
+  source:
+  - name: obj_3rd/M_EX790_HALLOWEEN_NM.mdlx
+- name: obj_3rd/W_EX020_90.mdlx
+  method: copy
+  source:
+  - name: obj_3rd/W_EX020_90.mdlx
+- name: obj_3rd/W_EX020_90_NM.mdlx
+  method: copy
+  source:
+  - name: obj_3rd/W_EX020_90_NM.mdlx
+- name: obj_3rd/W_EX020_90_TR.mdlx
+  method: copy
+  source:
+  - name: obj_3rd/W_EX020_90_TR.mdlx
+- name: obj_3rd/W_EX020_90_WI.mdlx
+  method: copy
+  source:
+  - name: obj_3rd/W_EX020_90_WI.mdlx
+- name: obj_3rd/W_EX030_80.mdlx
+  method: copy
+  source:
+  - name: obj_3rd/W_EX030_80.mdlx
+- name: obj_3rd/W_EX030_80_NM.mdlx
+  method: copy
+  source:
+  - name: obj_3rd/W_EX030_80_NM.mdlx
+- name: obj_3rd/W_EX030_80_TR.mdlx
+  method: copy
+  source:
+  - name: obj_3rd/W_EX030_80_TR.mdlx
+- name: obj_3rd/W_EX030_80_WI.mdlx
+  method: copy
+  source:
+  - name: obj_3rd/W_EX030_80_WI.mdlx
+- name: menu_3rd/fm/jm_photo/ca22.bin
+  method: copy
+  source:
+  - name: menu_3rd/fm/jm_photo/ca22.bin
+- name: menu_3rd/fm/jm_photo/ca22.bin
+  method: copy
+  source:
+  - name: menu_3rd/fm/jm_photo/ca22.bin
+- name: menu_3rd/fm/jm_photo/ca22.bin
+  method: copy
+  source:
+  - name: menu_3rd/fm/jm_photo/ca22.bin
+- name: menu_3rd/fm/jm_photo/ca22.bin
+  method: copy
+  source:
+  - name: menu_3rd/fm/jm_photo/ca22.bin
+- name: menu_3rd/fm/jm_photo/ca22.bin
+  method: copy
+  source:
+  - name: menu_3rd/fm/jm_photo/ca22.bin
+- name: menu_3rd/fm/jm_photo/ca22.bin
+  method: copy
+  source:
+  - name: menu_3rd/fm/jm_photo/ca22.bin
+- name: menu_3rd/fm/jm_photo/he13.bin
+  method: copy
+  source:
+  - name: menu_3rd/fm/jm_photo/he13.bin
+- name: menu_3rd/fm/jm_photo/he13.bin
+  method: copy
+  source:
+  - name: menu_3rd/fm/jm_photo/he13.bin
+- name: menu_3rd/fm/jm_photo/he13.bin
+  method: copy
+  source:
+  - name: menu_3rd/fm/jm_photo/he13.bin
+- name: menu_3rd/fm/jm_photo/he13.bin
+  method: copy
+  source:
+  - name: menu_3rd/fm/jm_photo/he13.bin
+- name: menu_3rd/fm/jm_photo/he13.bin
+  method: copy
+  source:
+  - name: menu_3rd/fm/jm_photo/he13.bin
+- name: menu_3rd/fm/jm_photo/he13.bin
+  method: copy
+  source:
+  - name: menu_3rd/fm/jm_photo/he13.bin
+- name: menu_3rd/fm/jm_photo/lk24.bin
+  method: copy
+  source:
+  - name: menu_3rd/fm/jm_photo/lk24.bin
+- name: menu_3rd/fm/jm_photo/lk24.bin
+  method: copy
+  source:
+  - name: menu_3rd/fm/jm_photo/lk24.bin
+- name: menu_3rd/fm/jm_photo/lk24.bin
+  method: copy
+  source:
+  - name: menu_3rd/fm/jm_photo/lk24.bin
+- name: menu_3rd/fm/jm_photo/lk24.bin
+  method: copy
+  source:
+  - name: menu_3rd/fm/jm_photo/lk24.bin
+- name: menu_3rd/fm/jm_photo/lk24.bin
+  method: copy
+  source:
+  - name: menu_3rd/fm/jm_photo/lk24.bin
+- name: menu_3rd/fm/jm_photo/lk24.bin
+  method: copy
+  source:
+  - name: menu_3rd/fm/jm_photo/lk24.bin
+- name: menu_3rd/fm/jm_photo/mu22.bin
+  method: copy
+  source:
+  - name: menu_3rd/fm/jm_photo/mu22.bin
+- name: menu_3rd/fm/jm_photo/mu22.bin
+  method: copy
+  source:
+  - name: menu_3rd/fm/jm_photo/mu22.bin
+- name: menu_3rd/fm/jm_photo/mu22.bin
+  method: copy
+  source:
+  - name: menu_3rd/fm/jm_photo/mu22.bin
+- name: menu_3rd/fm/jm_photo/mu22.bin
+  method: copy
+  source:
+  - name: menu_3rd/fm/jm_photo/mu22.bin
+- name: menu_3rd/fm/jm_photo/mu22.bin
+  method: copy
+  source:
+  - name: menu_3rd/fm/jm_photo/mu22.bin
+- name: menu_3rd/fm/jm_photo/mu22.bin
+  method: copy
+  source:
+  - name: menu_3rd/fm/jm_photo/mu22.bin
+- name: menu_3rd/fr/jm_photo/ca22.bin
+  method: copy
+  source:
+  - name: menu_3rd/fr/jm_photo/ca22.bin
+- name: menu_3rd/fr/jm_photo/he13.bin
+  method: copy
+  source:
+  - name: menu_3rd/fr/jm_photo/he13.bin
+- name: menu_3rd/fr/jm_photo/lk24.bin
+  method: copy
+  source:
+  - name: menu_3rd/fr/jm_photo/lk24.bin
+- name: menu_3rd/fr/jm_photo/mu22.bin
+  method: copy
+  source:
+  - name: menu_3rd/fr/jm_photo/mu22.bin
+- name: menu_3rd/gr/jm_photo/ca22.bin
+  method: copy
+  source:
+  - name: menu_3rd/gr/jm_photo/ca22.bin
+- name: menu_3rd/gr/jm_photo/he13.bin
+  method: copy
+  source:
+  - name: menu_3rd/gr/jm_photo/he13.bin
+- name: menu_3rd/gr/jm_photo/lk24.bin
+  method: copy
+  source:
+  - name: menu_3rd/gr/jm_photo/lk24.bin
+- name: menu_3rd/gr/jm_photo/mu22.bin
+  method: copy
+  source:
+  - name: menu_3rd/gr/jm_photo/mu22.bin
+- name: menu_3rd/it/jm_photo/ca22.bin
+  method: copy
+  source:
+  - name: menu_3rd/it/jm_photo/ca22.bin
+- name: menu_3rd/it/jm_photo/he13.bin
+  method: copy
+  source:
+  - name: menu_3rd/it/jm_photo/he13.bin
+- name: menu_3rd/it/jm_photo/lk24.bin
+  method: copy
+  source:
+  - name: menu_3rd/it/jm_photo/lk24.bin
+- name: menu_3rd/it/jm_photo/mu22.bin
+  method: copy
+  source:
+  - name: menu_3rd/it/jm_photo/mu22.bin
+- name: menu_3rd/sp/jm_photo/ca22.bin
+  method: copy
+  source:
+  - name: menu_3rd/sp/jm_photo/ca22.bin
+- name: menu_3rd/sp/jm_photo/he13.bin
+  method: copy
+  source:
+  - name: menu_3rd/sp/jm_photo/he13.bin
+- name: menu_3rd/sp/jm_photo/lk24.bin
+  method: copy
+  source:
+  - name: menu_3rd/sp/jm_photo/lk24.bin
+- name: menu_3rd/sp/jm_photo/mu22.bin
+  method: copy
+  source:
+  - name: menu_3rd/sp/jm_photo/mu22.bin
+- name: menu_3rd/uk/jm_photo/ca22.bin
+  method: copy
+  source:
+  - name: menu_3rd/uk/jm_photo/ca22.bin
+- name: menu_3rd/uk/jm_photo/he13.bin
+  method: copy
+  source:
+  - name: menu_3rd/uk/jm_photo/he13.bin
+- name: menu_3rd/uk/jm_photo/lk24.bin
+  method: copy
+  source:
+  - name: menu_3rd/uk/jm_photo/lk24.bin
+- name: menu_3rd/uk/jm_photo/mu22.bin
+  method: copy
+  source:
+  - name: menu_3rd/uk/jm_photo/mu22.bin
+- name: menu_3rd/us/jm_photo/ca22.bin
+  method: copy
+  source:
+  - name: menu_3rd/us/jm_photo/ca22.bin
+- name: menu_3rd/us/jm_photo/he13.bin
+  method: copy
+  source:
+  - name: menu_3rd/us/jm_photo/he13.bin
+- name: menu_3rd/us/jm_photo/lk24.bin
+  method: copy
+  source:
+  - name: menu_3rd/us/jm_photo/lk24.bin
+- name: menu_3rd/us/jm_photo/mu22.bin
+  method: copy
+  source:
+  - name: menu_3rd/us/jm_photo/mu22.bin
+- name: remastered/itempic_3rd/item-077.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/itempic_3rd/item-077.imd/-0.dds
+- name: remastered/itempic_3rd/item-088.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/itempic_3rd/item-088.imd/-0.dds
+- name: remastered/menu_3rd/jmface_heart1.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/jmface_heart1.imd/-0.dds
+- name: remastered/menu_3rd/jmface_heart10.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/jmface_heart10.imd/-0.dds
+- name: remastered/menu_3rd/jmface_heart11.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/jmface_heart11.imd/-0.dds
+- name: remastered/menu_3rd/jmface_heart12.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/jmface_heart12.imd/-0.dds
+- name: remastered/menu_3rd/jmface_heart13.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/jmface_heart13.imd/-0.dds
+- name: remastered/menu_3rd/jmface_heart14.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/jmface_heart14.imd/-0.dds
+- name: remastered/menu_3rd/jmface_heart15.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/jmface_heart15.imd/-0.dds
+- name: remastered/menu_3rd/jmface_heart17.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/jmface_heart17.imd/-0.dds
+- name: remastered/menu_3rd/jmface_heart18.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/jmface_heart18.imd/-0.dds
+- name: remastered/menu_3rd/jmface_heart19.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/jmface_heart19.imd/-0.dds
+- name: remastered/menu_3rd/jmface_heart2.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/jmface_heart2.imd/-0.dds
+- name: remastered/menu_3rd/jmface_heart22.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/jmface_heart22.imd/-0.dds
+- name: remastered/menu_3rd/jmface_heart23.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/jmface_heart23.imd/-0.dds
+- name: remastered/menu_3rd/jmface_heart26.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/jmface_heart26.imd/-0.dds
+- name: remastered/menu_3rd/jmface_heart27.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/jmface_heart27.imd/-0.dds
+- name: remastered/menu_3rd/jmface_heart28.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/jmface_heart28.imd/-0.dds
+- name: remastered/menu_3rd/jmface_heart29.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/jmface_heart29.imd/-0.dds
+- name: remastered/menu_3rd/jmface_heart30.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/jmface_heart30.imd/-0.dds
+- name: remastered/menu_3rd/jmface_heart31.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/jmface_heart31.imd/-0.dds
+- name: remastered/menu_3rd/jmface_heart37.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/jmface_heart37.imd/-0.dds
+- name: remastered/menu_3rd/jmface_heart38.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/jmface_heart38.imd/-0.dds
+- name: remastered/menu_3rd/jmface_heart39.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/jmface_heart39.imd/-0.dds
+- name: remastered/menu_3rd/jmface_heart40.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/jmface_heart40.imd/-0.dds
+- name: remastered/menu_3rd/jmface_heart41.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/jmface_heart41.imd/-0.dds
+- name: remastered/menu_3rd/jmface_heart42.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/jmface_heart42.imd/-0.dds
+- name: remastered/menu_3rd/jmface_heart6.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/jmface_heart6.imd/-0.dds
+- name: remastered/menu_3rd/jmface_heart60.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/jmface_heart60.imd/-0.dds
+- name: remastered/menu_3rd/jmface_heart64.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/jmface_heart64.imd/-0.dds
+- name: remastered/menu_3rd/jmface_heart65.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/jmface_heart65.imd/-0.dds
+- name: remastered/menu_3rd/jmface_heart66.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/jmface_heart66.imd/-0.dds
+- name: remastered/menu_3rd/jmface_heart67.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/jmface_heart67.imd/-0.dds
+- name: remastered/menu_3rd/jmface_heart68.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/jmface_heart68.imd/-0.dds
+- name: remastered/menu_3rd/jmface_heart7.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/jmface_heart7.imd/-0.dds
+- name: remastered/menu_3rd/jmface_heart8.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/jmface_heart8.imd/-0.dds
+- name: remastered/menu_3rd/jmface_heart9.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/jmface_heart9.imd/-0.dds
+- name: remastered/obj_3rd/B_BB100.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_BB100.mdlx/-0.dds
+- name: remastered/obj_3rd/B_BB100.mdlx/-1.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_BB100.mdlx/-1.dds
+- name: remastered/obj_3rd/B_BB100.mdlx/-2.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_BB100.mdlx/-2.dds
+- name: remastered/obj_3rd/B_BB100.mdlx/-3.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_BB100.mdlx/-3.dds
+- name: remastered/obj_3rd/B_BB100_GM.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_BB100_GM.mdlx/-0.dds
+- name: remastered/obj_3rd/B_BB100_GM.mdlx/-1.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_BB100_GM.mdlx/-1.dds
+- name: remastered/obj_3rd/B_BB100_GM.mdlx/-2.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_BB100_GM.mdlx/-2.dds
+- name: remastered/obj_3rd/B_BB100_TSURU.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_BB100_TSURU.mdlx/-0.dds
+- name: remastered/obj_3rd/B_BB100_TSURU.mdlx/-1.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_BB100_TSURU.mdlx/-1.dds
+- name: remastered/obj_3rd/B_BB100_TSURU.mdlx/-2.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_BB100_TSURU.mdlx/-2.dds
+- name: remastered/obj_3rd/B_BB100_TSURU.mdlx/-3.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_BB100_TSURU.mdlx/-3.dds
+- name: remastered/obj_3rd/B_CA000.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_CA000.mdlx/-0.dds
+- name: remastered/obj_3rd/B_CA000.mdlx/-1.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_CA000.mdlx/-1.dds
+- name: remastered/obj_3rd/B_CA050.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_CA050.mdlx/-0.dds
+- name: remastered/obj_3rd/B_CA050.mdlx/-1.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_CA050.mdlx/-1.dds
+- name: remastered/obj_3rd/B_CA050.mdlx/-2.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_CA050.mdlx/-2.dds
+- name: remastered/obj_3rd/B_CA050.mdlx/-3.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_CA050.mdlx/-3.dds
+- name: remastered/obj_3rd/B_CA050.mdlx/-4.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_CA050.mdlx/-4.dds
+- name: remastered/obj_3rd/B_CA050.mdlx/-5.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_CA050.mdlx/-5.dds
+- name: remastered/obj_3rd/B_CA050.mdlx/-6.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_CA050.mdlx/-6.dds
+- name: remastered/obj_3rd/B_CA050.mdlx/-7.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_CA050.mdlx/-7.dds
+- name: remastered/obj_3rd/B_CA050.mdlx/-8.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_CA050.mdlx/-8.dds
+- name: remastered/obj_3rd/B_CA050_GM.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_CA050_GM.mdlx/-0.dds
+- name: remastered/obj_3rd/B_CA050_GM.mdlx/-1.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_CA050_GM.mdlx/-1.dds
+- name: remastered/obj_3rd/B_CA050_GM.mdlx/-2.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_CA050_GM.mdlx/-2.dds
+- name: remastered/obj_3rd/B_CA050_GM.mdlx/-3.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_CA050_GM.mdlx/-3.dds
+- name: remastered/obj_3rd/B_LK120.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_LK120.mdlx/-0.dds
+- name: remastered/obj_3rd/B_LK120.mdlx/-1.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_LK120.mdlx/-1.dds
+- name: remastered/obj_3rd/B_LK120.mdlx/-10.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_LK120.mdlx/-10.dds
+- name: remastered/obj_3rd/B_LK120.mdlx/-11.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_LK120.mdlx/-11.dds
+- name: remastered/obj_3rd/B_LK120.mdlx/-12.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_LK120.mdlx/-12.dds
+- name: remastered/obj_3rd/B_LK120.mdlx/-13.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_LK120.mdlx/-13.dds
+- name: remastered/obj_3rd/B_LK120.mdlx/-14.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_LK120.mdlx/-14.dds
+- name: remastered/obj_3rd/B_LK120.mdlx/-15.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_LK120.mdlx/-15.dds
+- name: remastered/obj_3rd/B_LK120.mdlx/-16.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_LK120.mdlx/-16.dds
+- name: remastered/obj_3rd/B_LK120.mdlx/-2.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_LK120.mdlx/-2.dds
+- name: remastered/obj_3rd/B_LK120.mdlx/-3.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_LK120.mdlx/-3.dds
+- name: remastered/obj_3rd/B_LK120.mdlx/-4.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_LK120.mdlx/-4.dds
+- name: remastered/obj_3rd/B_LK120.mdlx/-5.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_LK120.mdlx/-5.dds
+- name: remastered/obj_3rd/B_LK120.mdlx/-6.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_LK120.mdlx/-6.dds
+- name: remastered/obj_3rd/B_LK120.mdlx/-7.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_LK120.mdlx/-7.dds
+- name: remastered/obj_3rd/B_LK120.mdlx/-8.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_LK120.mdlx/-8.dds
+- name: remastered/obj_3rd/B_LK120.mdlx/-9.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_LK120.mdlx/-9.dds
+- name: remastered/obj_3rd/B_LK120_GM.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_LK120_GM.mdlx/-0.dds
+- name: remastered/obj_3rd/B_LK120_GM.mdlx/-1.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_LK120_GM.mdlx/-1.dds
+- name: remastered/obj_3rd/B_LK120_GM.mdlx/-10.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_LK120_GM.mdlx/-10.dds
+- name: remastered/obj_3rd/B_LK120_GM.mdlx/-11.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_LK120_GM.mdlx/-11.dds
+- name: remastered/obj_3rd/B_LK120_GM.mdlx/-12.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_LK120_GM.mdlx/-12.dds
+- name: remastered/obj_3rd/B_LK120_GM.mdlx/-13.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_LK120_GM.mdlx/-13.dds
+- name: remastered/obj_3rd/B_LK120_GM.mdlx/-14.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_LK120_GM.mdlx/-14.dds
+- name: remastered/obj_3rd/B_LK120_GM.mdlx/-15.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_LK120_GM.mdlx/-15.dds
+- name: remastered/obj_3rd/B_LK120_GM.mdlx/-16.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_LK120_GM.mdlx/-16.dds
+- name: remastered/obj_3rd/B_LK120_GM.mdlx/-2.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_LK120_GM.mdlx/-2.dds
+- name: remastered/obj_3rd/B_LK120_GM.mdlx/-3.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_LK120_GM.mdlx/-3.dds
+- name: remastered/obj_3rd/B_LK120_GM.mdlx/-4.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_LK120_GM.mdlx/-4.dds
+- name: remastered/obj_3rd/B_LK120_GM.mdlx/-5.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_LK120_GM.mdlx/-5.dds
+- name: remastered/obj_3rd/B_LK120_GM.mdlx/-6.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_LK120_GM.mdlx/-6.dds
+- name: remastered/obj_3rd/B_LK120_GM.mdlx/-7.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_LK120_GM.mdlx/-7.dds
+- name: remastered/obj_3rd/B_LK120_GM.mdlx/-8.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_LK120_GM.mdlx/-8.dds
+- name: remastered/obj_3rd/B_LK120_GM.mdlx/-9.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_LK120_GM.mdlx/-9.dds
+- name: remastered/obj_3rd/B_MU120.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_MU120.mdlx/-0.dds
+- name: remastered/obj_3rd/B_MU120.mdlx/-1.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_MU120.mdlx/-1.dds
+- name: remastered/obj_3rd/B_MU120.mdlx/-2.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_MU120.mdlx/-2.dds
+- name: remastered/obj_3rd/B_MU120.mdlx/-3.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_MU120.mdlx/-3.dds
+- name: remastered/obj_3rd/B_MU120.mdlx/-4.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_MU120.mdlx/-4.dds
+- name: remastered/obj_3rd/B_MU120.mdlx/-5.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_MU120.mdlx/-5.dds
+- name: remastered/obj_3rd/B_MU120_GM.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_MU120_GM.mdlx/-0.dds
+- name: remastered/obj_3rd/B_MU120_GM.mdlx/-1.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_MU120_GM.mdlx/-1.dds
+- name: remastered/obj_3rd/B_MU120_GM.mdlx/-2.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_MU120_GM.mdlx/-2.dds
+- name: remastered/obj_3rd/B_MU120_GM.mdlx/-3.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_MU120_GM.mdlx/-3.dds
+- name: remastered/obj_3rd/B_MU120_GM.mdlx/-4.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_MU120_GM.mdlx/-4.dds
+- name: remastered/obj_3rd/B_MU120_GM.mdlx/-5.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_MU120_GM.mdlx/-5.dds
+- name: remastered/obj_3rd/B_NM100.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_NM100.mdlx/-0.dds
+- name: remastered/obj_3rd/B_NM100.mdlx/-1.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_NM100.mdlx/-1.dds
+- name: remastered/obj_3rd/B_NM100.mdlx/-10.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_NM100.mdlx/-10.dds
+- name: remastered/obj_3rd/B_NM100.mdlx/-11.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_NM100.mdlx/-11.dds
+- name: remastered/obj_3rd/B_NM100.mdlx/-12.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_NM100.mdlx/-12.dds
+- name: remastered/obj_3rd/B_NM100.mdlx/-2.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_NM100.mdlx/-2.dds
+- name: remastered/obj_3rd/B_NM100.mdlx/-3.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_NM100.mdlx/-3.dds
+- name: remastered/obj_3rd/B_NM100.mdlx/-4.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_NM100.mdlx/-4.dds
+- name: remastered/obj_3rd/B_NM100.mdlx/-5.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_NM100.mdlx/-5.dds
+- name: remastered/obj_3rd/B_NM100.mdlx/-6.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_NM100.mdlx/-6.dds
+- name: remastered/obj_3rd/B_NM100.mdlx/-7.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_NM100.mdlx/-7.dds
+- name: remastered/obj_3rd/B_NM100.mdlx/-8.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_NM100.mdlx/-8.dds
+- name: remastered/obj_3rd/B_NM100.mdlx/-9.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_NM100.mdlx/-9.dds
+- name: remastered/obj_3rd/B_NM100_GM.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_NM100_GM.mdlx/-0.dds
+- name: remastered/obj_3rd/B_NM100_GM.mdlx/-1.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_NM100_GM.mdlx/-1.dds
+- name: remastered/obj_3rd/B_NM100_GM.mdlx/-2.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_NM100_GM.mdlx/-2.dds
+- name: remastered/obj_3rd/B_NM100_GM.mdlx/-3.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_NM100_GM.mdlx/-3.dds
+- name: remastered/obj_3rd/B_NM100_GM.mdlx/-4.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/B_NM100_GM.mdlx/-4.dds
+- name: remastered/obj_3rd/M_EX010.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX010.mdlx/-0.dds
+- name: remastered/obj_3rd/M_EX010.mdlx/-1.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX010.mdlx/-1.dds
+- name: remastered/obj_3rd/M_EX010.mdlx/-2.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX010.mdlx/-2.dds
+- name: remastered/obj_3rd/M_EX010.mdlx/-3.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX010.mdlx/-3.dds
+- name: remastered/obj_3rd/M_EX010_NM.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX010_NM.mdlx/-0.dds
+- name: remastered/obj_3rd/M_EX010_NM.mdlx/-1.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX010_NM.mdlx/-1.dds
+- name: remastered/obj_3rd/M_EX010_NM.mdlx/-2.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX010_NM.mdlx/-2.dds
+- name: remastered/obj_3rd/M_EX010_NM.mdlx/-3.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX010_NM.mdlx/-3.dds
+- name: remastered/obj_3rd/M_EX050.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX050.mdlx/-0.dds
+- name: remastered/obj_3rd/M_EX050.mdlx/-1.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX050.mdlx/-1.dds
+- name: remastered/obj_3rd/M_EX050.mdlx/-2.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX050.mdlx/-2.dds
+- name: remastered/obj_3rd/M_EX060.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX060.mdlx/-0.dds
+- name: remastered/obj_3rd/M_EX060.mdlx/-1.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX060.mdlx/-1.dds
+- name: remastered/obj_3rd/M_EX200.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX200.mdlx/-0.dds
+- name: remastered/obj_3rd/M_EX200.mdlx/-1.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX200.mdlx/-1.dds
+- name: remastered/obj_3rd/M_EX200_NM.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX200_NM.mdlx/-0.dds
+- name: remastered/obj_3rd/M_EX200_NM.mdlx/-1.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX200_NM.mdlx/-1.dds
+- name: remastered/obj_3rd/M_EX210.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX210.mdlx/-0.dds
+- name: remastered/obj_3rd/M_EX210.mdlx/-1.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX210.mdlx/-1.dds
+- name: remastered/obj_3rd/M_EX210.mdlx/-2.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX210.mdlx/-2.dds
+- name: remastered/obj_3rd/M_EX210.mdlx/-3.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX210.mdlx/-3.dds
+- name: remastered/obj_3rd/M_EX500.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX500.mdlx/-0.dds
+- name: remastered/obj_3rd/M_EX500.mdlx/-1.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX500.mdlx/-1.dds
+- name: remastered/obj_3rd/M_EX500.mdlx/-2.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX500.mdlx/-2.dds
+- name: remastered/obj_3rd/M_EX500.mdlx/-3.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX500.mdlx/-3.dds
+- name: remastered/obj_3rd/M_EX500.mdlx/-4.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX500.mdlx/-4.dds
+- name: remastered/obj_3rd/M_EX500.mdlx/-5.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX500.mdlx/-5.dds
+- name: remastered/obj_3rd/M_EX500_GM.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX500_GM.mdlx/-0.dds
+- name: remastered/obj_3rd/M_EX500_GM.mdlx/-1.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX500_GM.mdlx/-1.dds
+- name: remastered/obj_3rd/M_EX500_GM.mdlx/-2.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX500_GM.mdlx/-2.dds
+- name: remastered/obj_3rd/M_EX500_GM.mdlx/-3.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX500_GM.mdlx/-3.dds
+- name: remastered/obj_3rd/M_EX500_GM.mdlx/-4.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX500_GM.mdlx/-4.dds
+- name: remastered/obj_3rd/M_EX500_GM.mdlx/-5.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX500_GM.mdlx/-5.dds
+- name: remastered/obj_3rd/M_EX500_GM.mdlx/-6.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX500_GM.mdlx/-6.dds
+- name: remastered/obj_3rd/M_EX500_NM.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX500_NM.mdlx/-0.dds
+- name: remastered/obj_3rd/M_EX500_NM.mdlx/-1.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX500_NM.mdlx/-1.dds
+- name: remastered/obj_3rd/M_EX500_NM.mdlx/-2.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX500_NM.mdlx/-2.dds
+- name: remastered/obj_3rd/M_EX500_NM.mdlx/-3.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX500_NM.mdlx/-3.dds
+- name: remastered/obj_3rd/M_EX500_NM.mdlx/-4.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX500_NM.mdlx/-4.dds
+- name: remastered/obj_3rd/M_EX500_NM.mdlx/-5.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX500_NM.mdlx/-5.dds
+- name: remastered/obj_3rd/M_EX510.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX510.mdlx/-0.dds
+- name: remastered/obj_3rd/M_EX520.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX520.mdlx/-0.dds
+- name: remastered/obj_3rd/M_EX520_AL.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX520_AL.mdlx/-0.dds
+- name: remastered/obj_3rd/M_EX530.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX530.mdlx/-0.dds
+- name: remastered/obj_3rd/M_EX530.mdlx/-1.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX530.mdlx/-1.dds
+- name: remastered/obj_3rd/M_EX540.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX540.mdlx/-0.dds
+- name: remastered/obj_3rd/M_EX540.mdlx/-1.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX540.mdlx/-1.dds
+- name: remastered/obj_3rd/M_EX540.mdlx/-2.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX540.mdlx/-2.dds
+- name: remastered/obj_3rd/M_EX540.mdlx/-3.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX540.mdlx/-3.dds
+- name: remastered/obj_3rd/M_EX550.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX550.mdlx/-0.dds
+- name: remastered/obj_3rd/M_EX560.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX560.mdlx/-0.dds
+- name: remastered/obj_3rd/M_EX560.mdlx/-1.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX560.mdlx/-1.dds
+- name: remastered/obj_3rd/M_EX560.mdlx/-2.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX560.mdlx/-2.dds
+- name: remastered/obj_3rd/M_EX560.mdlx/-3.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX560.mdlx/-3.dds
+- name: remastered/obj_3rd/M_EX570.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX570.mdlx/-0.dds
+- name: remastered/obj_3rd/M_EX570.mdlx/-1.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX570.mdlx/-1.dds
+- name: remastered/obj_3rd/M_EX570.mdlx/-2.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX570.mdlx/-2.dds
+- name: remastered/obj_3rd/M_EX590.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX590.mdlx/-0.dds
+- name: remastered/obj_3rd/M_EX590.mdlx/-1.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX590.mdlx/-1.dds
+- name: remastered/obj_3rd/M_EX590.mdlx/-2.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX590.mdlx/-2.dds
+- name: remastered/obj_3rd/M_EX590.mdlx/-3.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX590.mdlx/-3.dds
+- name: remastered/obj_3rd/M_EX620.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX620.mdlx/-0.dds
+- name: remastered/obj_3rd/M_EX620.mdlx/-1.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX620.mdlx/-1.dds
+- name: remastered/obj_3rd/M_EX620.mdlx/-2.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX620.mdlx/-2.dds
+- name: remastered/obj_3rd/M_EX620.mdlx/-3.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX620.mdlx/-3.dds
+- name: remastered/obj_3rd/M_EX620.mdlx/-4.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX620.mdlx/-4.dds
+- name: remastered/obj_3rd/M_EX620.mdlx/-5.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX620.mdlx/-5.dds
+- name: remastered/obj_3rd/M_EX620_AL.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX620_AL.mdlx/-0.dds
+- name: remastered/obj_3rd/M_EX620_AL.mdlx/-1.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX620_AL.mdlx/-1.dds
+- name: remastered/obj_3rd/M_EX620_AL.mdlx/-2.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX620_AL.mdlx/-2.dds
+- name: remastered/obj_3rd/M_EX620_AL.mdlx/-3.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX620_AL.mdlx/-3.dds
+- name: remastered/obj_3rd/M_EX620_AL.mdlx/-4.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX620_AL.mdlx/-4.dds
+- name: remastered/obj_3rd/M_EX620_AL.mdlx/-5.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX620_AL.mdlx/-5.dds
+- name: remastered/obj_3rd/M_EX630.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX630.mdlx/-0.dds
+- name: remastered/obj_3rd/M_EX630.mdlx/-1.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX630.mdlx/-1.dds
+- name: remastered/obj_3rd/M_EX630.mdlx/-2.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX630.mdlx/-2.dds
+- name: remastered/obj_3rd/M_EX630.mdlx/-3.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX630.mdlx/-3.dds
+- name: remastered/obj_3rd/M_EX640.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX640.mdlx/-0.dds
+- name: remastered/obj_3rd/M_EX640.mdlx/-1.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX640.mdlx/-1.dds
+- name: remastered/obj_3rd/M_EX640.mdlx/-2.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX640.mdlx/-2.dds
+- name: remastered/obj_3rd/M_EX650.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX650.mdlx/-0.dds
+- name: remastered/obj_3rd/M_EX650.mdlx/-1.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX650.mdlx/-1.dds
+- name: remastered/obj_3rd/M_EX670.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX670.mdlx/-0.dds
+- name: remastered/obj_3rd/M_EX670.mdlx/-1.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX670.mdlx/-1.dds
+- name: remastered/obj_3rd/M_EX670.mdlx/-2.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX670.mdlx/-2.dds
+- name: remastered/obj_3rd/M_EX670.mdlx/-3.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX670.mdlx/-3.dds
+- name: remastered/obj_3rd/M_EX670.mdlx/-4.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX670.mdlx/-4.dds
+- name: remastered/obj_3rd/M_EX670.mdlx/-5.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX670.mdlx/-5.dds
+- name: remastered/obj_3rd/M_EX670.mdlx/-6.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX670.mdlx/-6.dds
+- name: remastered/obj_3rd/M_EX690.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX690.mdlx/-0.dds
+- name: remastered/obj_3rd/M_EX690.mdlx/-1.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX690.mdlx/-1.dds
+- name: remastered/obj_3rd/M_EX690.mdlx/-2.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX690.mdlx/-2.dds
+- name: remastered/obj_3rd/M_EX700.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX700.mdlx/-0.dds
+- name: remastered/obj_3rd/M_EX700.mdlx/-1.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX700.mdlx/-1.dds
+- name: remastered/obj_3rd/M_EX700.mdlx/-2.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX700.mdlx/-2.dds
+- name: remastered/obj_3rd/M_EX700.mdlx/-3.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX700.mdlx/-3.dds
+- name: remastered/obj_3rd/M_EX700_NM.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX700_NM.mdlx/-0.dds
+- name: remastered/obj_3rd/M_EX700_NM.mdlx/-1.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX700_NM.mdlx/-1.dds
+- name: remastered/obj_3rd/M_EX700_NM.mdlx/-2.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX700_NM.mdlx/-2.dds
+- name: remastered/obj_3rd/M_EX700_NM.mdlx/-3.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX700_NM.mdlx/-3.dds
+- name: remastered/obj_3rd/M_EX710.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX710.mdlx/-0.dds
+- name: remastered/obj_3rd/M_EX710.mdlx/-1.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX710.mdlx/-1.dds
+- name: remastered/obj_3rd/M_EX710.mdlx/-2.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX710.mdlx/-2.dds
+- name: remastered/obj_3rd/M_EX720.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX720.mdlx/-0.dds
+- name: remastered/obj_3rd/M_EX720.mdlx/-1.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX720.mdlx/-1.dds
+- name: remastered/obj_3rd/M_EX720.mdlx/-2.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX720.mdlx/-2.dds
+- name: remastered/obj_3rd/M_EX730.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX730.mdlx/-0.dds
+- name: remastered/obj_3rd/M_EX740.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX740.mdlx/-0.dds
+- name: remastered/obj_3rd/M_EX740.mdlx/-1.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX740.mdlx/-1.dds
+- name: remastered/obj_3rd/M_EX740.mdlx/-2.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX740.mdlx/-2.dds
+- name: remastered/obj_3rd/M_EX750.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX750.mdlx/-0.dds
+- name: remastered/obj_3rd/M_EX750.mdlx/-1.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX750.mdlx/-1.dds
+- name: remastered/obj_3rd/M_EX750.mdlx/-2.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX750.mdlx/-2.dds
+- name: remastered/obj_3rd/M_EX750_NM.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX750_NM.mdlx/-0.dds
+- name: remastered/obj_3rd/M_EX750_NM.mdlx/-1.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX750_NM.mdlx/-1.dds
+- name: remastered/obj_3rd/M_EX750_NM.mdlx/-2.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX750_NM.mdlx/-2.dds
+- name: remastered/obj_3rd/M_EX780.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX780.mdlx/-0.dds
+- name: remastered/obj_3rd/M_EX780.mdlx/-1.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX780.mdlx/-1.dds
+- name: remastered/obj_3rd/M_EX780.mdlx/-2.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX780.mdlx/-2.dds
+- name: remastered/obj_3rd/M_EX790.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX790.mdlx/-0.dds
+- name: remastered/obj_3rd/M_EX790.mdlx/-1.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX790.mdlx/-1.dds
+- name: remastered/obj_3rd/M_EX790.mdlx/-2.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX790.mdlx/-2.dds
+- name: remastered/obj_3rd/M_EX790.mdlx/-3.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX790.mdlx/-3.dds
+- name: remastered/obj_3rd/M_EX790_CHRISTMAS.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX790_CHRISTMAS.mdlx/-0.dds
+- name: remastered/obj_3rd/M_EX790_CHRISTMAS.mdlx/-1.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX790_CHRISTMAS.mdlx/-1.dds
+- name: remastered/obj_3rd/M_EX790_CHRISTMAS.mdlx/-2.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX790_CHRISTMAS.mdlx/-2.dds
+- name: remastered/obj_3rd/M_EX790_CHRISTMAS.mdlx/-3.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX790_CHRISTMAS.mdlx/-3.dds
+- name: remastered/obj_3rd/M_EX790_CHRISTMAS_NM.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX790_CHRISTMAS_NM.mdlx/-0.dds
+- name: remastered/obj_3rd/M_EX790_CHRISTMAS_NM.mdlx/-1.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX790_CHRISTMAS_NM.mdlx/-1.dds
+- name: remastered/obj_3rd/M_EX790_CHRISTMAS_NM.mdlx/-2.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX790_CHRISTMAS_NM.mdlx/-2.dds
+- name: remastered/obj_3rd/M_EX790_CHRISTMAS_NM.mdlx/-3.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX790_CHRISTMAS_NM.mdlx/-3.dds
+- name: remastered/obj_3rd/M_EX790_GM.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX790_GM.mdlx/-0.dds
+- name: remastered/obj_3rd/M_EX790_GM.mdlx/-1.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX790_GM.mdlx/-1.dds
+- name: remastered/obj_3rd/M_EX790_GM.mdlx/-2.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX790_GM.mdlx/-2.dds
+- name: remastered/obj_3rd/M_EX790_GM.mdlx/-3.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX790_GM.mdlx/-3.dds
+- name: remastered/obj_3rd/M_EX790_HALLOWEEN.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX790_HALLOWEEN.mdlx/-0.dds
+- name: remastered/obj_3rd/M_EX790_HALLOWEEN.mdlx/-1.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX790_HALLOWEEN.mdlx/-1.dds
+- name: remastered/obj_3rd/M_EX790_HALLOWEEN.mdlx/-2.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX790_HALLOWEEN.mdlx/-2.dds
+- name: remastered/obj_3rd/M_EX790_HALLOWEEN.mdlx/-3.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX790_HALLOWEEN.mdlx/-3.dds
+- name: remastered/obj_3rd/M_EX790_HALLOWEEN_NM.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX790_HALLOWEEN_NM.mdlx/-0.dds
+- name: remastered/obj_3rd/M_EX790_HALLOWEEN_NM.mdlx/-1.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX790_HALLOWEEN_NM.mdlx/-1.dds
+- name: remastered/obj_3rd/M_EX790_HALLOWEEN_NM.mdlx/-2.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX790_HALLOWEEN_NM.mdlx/-2.dds
+- name: remastered/obj_3rd/M_EX790_HALLOWEEN_NM.mdlx/-3.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/M_EX790_HALLOWEEN_NM.mdlx/-3.dds
+- name: remastered/obj_3rd/W_EX020_90.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/W_EX020_90.mdlx/-0.dds
+- name: remastered/obj_3rd/W_EX020_90.mdlx/-1.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/W_EX020_90.mdlx/-1.dds
+- name: remastered/obj_3rd/W_EX020_90_NM.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/W_EX020_90_NM.mdlx/-0.dds
+- name: remastered/obj_3rd/W_EX020_90_NM.mdlx/-1.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/W_EX020_90_NM.mdlx/-1.dds
+- name: remastered/obj_3rd/W_EX020_90_TR.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/W_EX020_90_TR.mdlx/-0.dds
+- name: remastered/obj_3rd/W_EX020_90_TR.mdlx/-1.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/W_EX020_90_TR.mdlx/-1.dds
+- name: remastered/obj_3rd/W_EX020_90_WI.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/W_EX020_90_WI.mdlx/-0.dds
+- name: remastered/obj_3rd/W_EX020_90_WI.mdlx/-1.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/W_EX020_90_WI.mdlx/-1.dds
+- name: remastered/obj_3rd/W_EX030_80.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/W_EX030_80.mdlx/-0.dds
+- name: remastered/obj_3rd/W_EX030_80_NM.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/W_EX030_80_NM.mdlx/-0.dds
+- name: remastered/obj_3rd/W_EX030_80_TR.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/W_EX030_80_TR.mdlx/-0.dds
+- name: remastered/obj_3rd/W_EX030_80_WI.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj_3rd/W_EX030_80_WI.mdlx/-0.dds
+- name: remastered/menu_3rd/fm/jm_photo/ca22.bin/FR_ca22_bin0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/fm/jm_photo/ca22.bin/FR_ca22_bin0.dds
+- name: remastered/menu_3rd/fm/jm_photo/ca22.bin/GR_ca22_bin0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/fm/jm_photo/ca22.bin/GR_ca22_bin0.dds
+- name: remastered/menu_3rd/fm/jm_photo/ca22.bin/IT_ca22_bin0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/fm/jm_photo/ca22.bin/IT_ca22_bin0.dds
+- name: remastered/menu_3rd/fm/jm_photo/ca22.bin/SP_ca22_bin0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/fm/jm_photo/ca22.bin/SP_ca22_bin0.dds
+- name: remastered/menu_3rd/fm/jm_photo/ca22.bin/UK_ca22_bin0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/fm/jm_photo/ca22.bin/UK_ca22_bin0.dds
+- name: remastered/menu_3rd/fm/jm_photo/ca22.bin/US_ca22_bin0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/fm/jm_photo/ca22.bin/US_ca22_bin0.dds
+- name: remastered/menu_3rd/fm/jm_photo/he13.bin/FR_he13_bin0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/fm/jm_photo/he13.bin/FR_he13_bin0.dds
+- name: remastered/menu_3rd/fm/jm_photo/he13.bin/GR_he13_bin0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/fm/jm_photo/he13.bin/GR_he13_bin0.dds
+- name: remastered/menu_3rd/fm/jm_photo/he13.bin/IT_he13_bin0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/fm/jm_photo/he13.bin/IT_he13_bin0.dds
+- name: remastered/menu_3rd/fm/jm_photo/he13.bin/SP_he13_bin0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/fm/jm_photo/he13.bin/SP_he13_bin0.dds
+- name: remastered/menu_3rd/fm/jm_photo/he13.bin/UK_he13_bin0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/fm/jm_photo/he13.bin/UK_he13_bin0.dds
+- name: remastered/menu_3rd/fm/jm_photo/he13.bin/US_he13_bin0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/fm/jm_photo/he13.bin/US_he13_bin0.dds
+- name: remastered/menu_3rd/fm/jm_photo/lk24.bin/FR_lk24_bin0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/fm/jm_photo/lk24.bin/FR_lk24_bin0.dds
+- name: remastered/menu_3rd/fm/jm_photo/lk24.bin/GR_lk24_bin0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/fm/jm_photo/lk24.bin/GR_lk24_bin0.dds
+- name: remastered/menu_3rd/fm/jm_photo/lk24.bin/IT_lk24_bin0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/fm/jm_photo/lk24.bin/IT_lk24_bin0.dds
+- name: remastered/menu_3rd/fm/jm_photo/lk24.bin/SP_lk24_bin0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/fm/jm_photo/lk24.bin/SP_lk24_bin0.dds
+- name: remastered/menu_3rd/fm/jm_photo/lk24.bin/UK_lk24_bin0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/fm/jm_photo/lk24.bin/UK_lk24_bin0.dds
+- name: remastered/menu_3rd/fm/jm_photo/lk24.bin/US_lk24_bin0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/fm/jm_photo/lk24.bin/US_lk24_bin0.dds
+- name: remastered/menu_3rd/fm/jm_photo/mu22.bin/FR_mu22_bin0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/fm/jm_photo/mu22.bin/FR_mu22_bin0.dds
+- name: remastered/menu_3rd/fm/jm_photo/mu22.bin/GR_mu22_bin0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/fm/jm_photo/mu22.bin/GR_mu22_bin0.dds
+- name: remastered/menu_3rd/fm/jm_photo/mu22.bin/IT_mu22_bin0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/fm/jm_photo/mu22.bin/IT_mu22_bin0.dds
+- name: remastered/menu_3rd/fm/jm_photo/mu22.bin/SP_mu22_bin0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/fm/jm_photo/mu22.bin/SP_mu22_bin0.dds
+- name: remastered/menu_3rd/fm/jm_photo/mu22.bin/UK_mu22_bin0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/fm/jm_photo/mu22.bin/UK_mu22_bin0.dds
+- name: remastered/menu_3rd/fm/jm_photo/mu22.bin/US_mu22_bin0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/fm/jm_photo/mu22.bin/US_mu22_bin0.dds
+- name: remastered/menu_3rd/fr/jm_photo/ca22.bin/FR_ca22_bin0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/fr/jm_photo/ca22.bin/FR_ca22_bin0.dds
+- name: remastered/menu_3rd/fr/jm_photo/he13.bin/FR_he13_bin0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/fr/jm_photo/he13.bin/FR_he13_bin0.dds
+- name: remastered/menu_3rd/fr/jm_photo/lk24.bin/FR_lk24_bin0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/fr/jm_photo/lk24.bin/FR_lk24_bin0.dds
+- name: remastered/menu_3rd/fr/jm_photo/mu22.bin/FR_mu22_bin0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/fr/jm_photo/mu22.bin/FR_mu22_bin0.dds
+- name: remastered/menu_3rd/gr/jm_photo/ca22.bin/GR_ca22_bin0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/gr/jm_photo/ca22.bin/GR_ca22_bin0.dds
+- name: remastered/menu_3rd/gr/jm_photo/he13.bin/GR_he13_bin0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/gr/jm_photo/he13.bin/GR_he13_bin0.dds
+- name: remastered/menu_3rd/gr/jm_photo/lk24.bin/GR_lk24_bin0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/gr/jm_photo/lk24.bin/GR_lk24_bin0.dds
+- name: remastered/menu_3rd/gr/jm_photo/mu22.bin/GR_mu22_bin0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/gr/jm_photo/mu22.bin/GR_mu22_bin0.dds
+- name: remastered/menu_3rd/it/jm_photo/ca22.bin/IT_ca22_bin0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/it/jm_photo/ca22.bin/IT_ca22_bin0.dds
+- name: remastered/menu_3rd/it/jm_photo/he13.bin/IT_he13_bin0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/it/jm_photo/he13.bin/IT_he13_bin0.dds
+- name: remastered/menu_3rd/it/jm_photo/lk24.bin/IT_lk24_bin0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/it/jm_photo/lk24.bin/IT_lk24_bin0.dds
+- name: remastered/menu_3rd/it/jm_photo/mu22.bin/IT_mu22_bin0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/it/jm_photo/mu22.bin/IT_mu22_bin0.dds
+- name: remastered/menu_3rd/sp/jm_photo/ca22.bin/SP_ca22_bin0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/sp/jm_photo/ca22.bin/SP_ca22_bin0.dds
+- name: remastered/menu_3rd/sp/jm_photo/he13.bin/SP_he13_bin0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/sp/jm_photo/he13.bin/SP_he13_bin0.dds
+- name: remastered/menu_3rd/sp/jm_photo/lk24.bin/SP_lk24_bin0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/sp/jm_photo/lk24.bin/SP_lk24_bin0.dds
+- name: remastered/menu_3rd/sp/jm_photo/mu22.bin/SP_mu22_bin0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/sp/jm_photo/mu22.bin/SP_mu22_bin0.dds
+- name: remastered/menu_3rd/uk/jm_photo/ca22.bin/UK_ca22_bin0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/uk/jm_photo/ca22.bin/UK_ca22_bin0.dds
+- name: remastered/menu_3rd/uk/jm_photo/he13.bin/UK_he13_bin0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/uk/jm_photo/he13.bin/UK_he13_bin0.dds
+- name: remastered/menu_3rd/uk/jm_photo/lk24.bin/UK_lk24_bin0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/uk/jm_photo/lk24.bin/UK_lk24_bin0.dds
+- name: remastered/menu_3rd/uk/jm_photo/mu22.bin/UK_mu22_bin0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/uk/jm_photo/mu22.bin/UK_mu22_bin0.dds
+- name: remastered/menu_3rd/us/jm_photo/ca22.bin/US_ca22_bin0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/us/jm_photo/ca22.bin/US_ca22_bin0.dds
+- name: remastered/menu_3rd/us/jm_photo/he13.bin/US_he13_bin0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/us/jm_photo/he13.bin/US_he13_bin0.dds
+- name: remastered/menu_3rd/us/jm_photo/lk24.bin/US_lk24_bin0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/us/jm_photo/lk24.bin/US_lk24_bin0.dds
+- name: remastered/menu_3rd/us/jm_photo/mu22.bin/US_mu22_bin0.dds
+  method: copy
+  source:
+  - name: remastered/menu_3rd/us/jm_photo/mu22.bin/US_mu22_bin0.dds
